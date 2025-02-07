@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task_1/home.dart';
 
 class AuthScreen extends StatefulWidget {
   @override
@@ -60,7 +61,10 @@ class _AuthScreenState extends State<AuthScreen> {
                   right: 130,
                   child: ElevatedButton(
                     onPressed: () {
-                      print(isLogin ? "Login Clicked" : "Sign Up Clicked");
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Feed()),
+                      );
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.purple,
