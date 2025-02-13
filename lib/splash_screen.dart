@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 
-import 'currencyconverter.dart'; // Apni main screen ka import karo
+import 'currencyconverter.dart'; 
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -25,12 +25,11 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue, // Change background color
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset("assets/logo.png", width: 150), // Apni logo image add karo
+            Image.asset("assets/logo.png", width: 150),
             SizedBox(height: 20),
             Text(
               "Currency Converter",

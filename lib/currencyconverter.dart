@@ -73,7 +73,7 @@
 //   }
 // }
 import 'package:flutter/material.dart';
-import 'splash_screen.dart'; // Splash screen ka import karo
+// Splash screen ka import karo
 
 void main() {
   runApp(const CurrencyConverterApp());

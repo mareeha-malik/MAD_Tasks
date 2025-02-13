@@ -7,7 +7,7 @@ class AuthScreen extends StatefulWidget {
 }
 
 class _AuthScreenState extends State<AuthScreen> {
-  bool isLogin = true; // Toggle between login & signup
+  bool isLogin = true;
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +35,7 @@ class _AuthScreenState extends State<AuthScreen> {
                   child: Container(
                     padding: isLogin ?
                     EdgeInsets.all(20):EdgeInsets.symmetric(horizontal: 5, vertical: 20),
-                    height: isLogin ? 250 : 320, // Adjust height for Login/Signup
+                    height: isLogin ? 250 : 320,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(30),
