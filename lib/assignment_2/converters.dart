@@ -156,6 +156,7 @@ class _FriendshipCalculatorState extends State<FriendshipCalculator> {
         ),
         const SizedBox(height: 10),
         TextField(
+          style: TextStyle(color: Colors.white),
           controller: _nameController2,
           decoration: InputDecoration(labelText: 'Enter second name',labelStyle: TextStyle(color: Colors.white),
             enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(12),borderSide: BorderSide(color: Colors.white,width: 2)),

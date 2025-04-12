@@ -9,7 +9,9 @@ class PlantShopApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(fontFamily: 'Poppins'),
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
       home: Login(),
     );
   }
